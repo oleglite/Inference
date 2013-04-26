@@ -1,0 +1,11 @@
+P(a, d).
+P(a, b).
+P(d,e).
+Q(b, c).
+Q(b, d).
+L(e,e).
+L(g, g).
+L(s,k).
+R(X, Y) <- P(X, Z); Q(Z,Y).
+Q(Y, Y) <- L(Y,Y).
+
